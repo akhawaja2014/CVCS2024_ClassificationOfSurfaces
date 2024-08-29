@@ -1,5 +1,4 @@
-# RTI Image Analysis and Clustering
-
+# Self-Supervised Classification of Surfaces using Reflectance Transformation Imaging
 This repository contains a MATLAB script that performs Reflectance Transformation Imaging (RTI) analysis on a set of images, extracts Region of Interest (ROI) signals, and applies clustering techniques like Self-Organizing Maps (SOM) and k-means to classify and visualize these signals.
 
 ## Table of Contents
