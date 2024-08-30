@@ -40,3 +40,18 @@ The script is written in MATLAB and requires the following:
 - `main_script.m`: The main MATLAB script for processing RTI images and clustering ROI signals.
 
 ## Code Overview
+
+### Paths for Real Data
+
+The following MATLAB code sets the paths for various data sources:
+
+The following MATLAB code sets the paths for various data sources:
+
+```matlab
+% PATHS for real data
+testimage_path = 'Path to the test image used for processing';
+RTI_acq = 'Directory path containing RTI acquisition data.';
+lpfile_path = 'Path to the .lp file with light directions';
+
+
+
