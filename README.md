@@ -1,19 +1,9 @@
 # Self-Supervised Classification of Surfaces using Reflectance Transformation Imaging
-This repository contains a MATLAB script that performs Reflectance Transformation Imaging (RTI) analysis on a set of images, extracts Region of Interest (ROI) signals, and applies clustering techniques like Self-Organizing Maps (SOM) and k-means to classify and visualize these signals.
+CVCS 2024 Code
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Code Overview](#code-overview)
-- [Clustering and Visualization](#clustering-and-visualization)
-- [License](#license)
 
-## Introduction
 
-This script is designed to work with RTI datasets, typically containing multiple images that capture surface details under varying lighting conditions. The script reads these images, allows users to define a Region of Interest (ROI), extracts pixel intensity signals from the ROI across the image set, and applies clustering techniques to identify patterns and group similar signals.
 
 ## Dependencies
 
@@ -24,20 +14,8 @@ The script is written in MATLAB and requires the following:
 - Neural Network Toolbox (for SOM)
 - Statistics and Machine Learning Toolbox (for k-means)
 
-## Usage
 
-1. **Set Paths**: Update the paths in the script to point to your dataset:
-   - `testimage_path`: Path to the initial image to select ROI.
-   - `RTI_acq`: Path to the folder containing RTI images.
-   - `lpfile_path`: Path to the light position file (not used directly in this script but kept for reference).
 
-2. **Run the Script**: Execute the MATLAB script. It will prompt you to select a ROI interactively. The script then reads all images in the specified folder, extracts signals from the ROI, and applies clustering algorithms.
-
-3. **Visualize Results**: The script provides various visualizations including signal plots for each cluster and overlay masks on the original image based on SOM and k-means clustering results.
-
-## File Structure
-
-- `main_script.m`: The main MATLAB script for processing RTI images and clustering ROI signals.
 
 ## Code Overview
 
