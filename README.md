@@ -1,4 +1,7 @@
 # Self-Supervised Classification of Surfaces using Reflectance Transformation Imaging
+
+<img src="iccvlogo.jpeg" alt="iccvlogo" width="800">
+
 CVCS 2024 Code
 
 
